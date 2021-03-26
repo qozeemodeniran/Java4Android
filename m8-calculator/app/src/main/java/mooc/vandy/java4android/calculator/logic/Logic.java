@@ -49,6 +49,21 @@ public class Logic implements LogicInterface {
                 Subtract subtraction = new Subtract(argumentOne, argumentTwo, mOut);
                 // performs the subtraction operation
                 subtraction.perform();
+                break;
+            // multiplication case
+            case MULTIPLY:
+                // create new multiply object
+                Multiply multiplication = new Multiply(argumentOne, argumentTwo, mOut);
+                // performing multiplication operation
+                multiplication.perform();
+                break;
+            // division case
+            case DIVIDE:
+                // create new divide oobject
+                Divide division = new Divide(argumentOne, argumentTwo, mOut);
+                //performs division operation
+                division.perform();
+                break;
         }
         
     }
