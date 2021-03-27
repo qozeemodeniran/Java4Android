@@ -154,7 +154,7 @@ public class MainActivity extends Activity implements ActivityInterface {
      * Print the result to the user's display.
      */
     @Override
-    public void print(String resultString) {
+    public void print(String resultString, ActivityInterface mOut) {
         mResult.setText(resultString);
     }
 }

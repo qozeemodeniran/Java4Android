@@ -22,5 +22,7 @@ public interface ActivityInterface {
     /**
      * Print the result to the user's display.
      */
-    void print(String resultString);
+    void print(String resultString, ActivityInterface mOut);
+
+    void print();
 }
